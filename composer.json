@@ -1,0 +1,36 @@
+{
+    "name": "jainsubh/google-search-api",
+    "description": "Laravel package provide Google Custom Search JSON and Restricted JSON API lets you develop websites and applications to retrieve and display search results from Programmable Search Engine programmatically.",
+    "homepage": "https://github.com/jainsubh/google-search-api",
+    "keywords": [
+        "search",
+        "google",
+        "custom",
+        "engine",
+        "laravel",
+        "site_restric"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Sourabh Jain",
+        "email": "jain.sourabh690@gmail.com"
+    }],
+    "support": {
+        "email": "jain.sourabh690@gmail.com",
+        "issues": "https://github.com/jainsubh/google-search-api/issues",
+        "source": "https://github.com/jainsubh/google-search-api/archive/master.zip"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "jainsubh\\GoogleSearchApi": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
