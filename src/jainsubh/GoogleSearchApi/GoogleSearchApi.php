@@ -83,7 +83,7 @@ class GoogleSearchApi
      * @link https://developers.google.com/custom-search/json-api/v1/reference/cse/list#response
      * @link https://developers.google.com/custom-search/json-api/v1/reference/cse/list#parameters
      */
-    public function getResults($phrase, $parameters = [], $search_type)
+    public function getResults($phrase, $parameters = [], $search_type = '')
     {
         /**
          * Check required parameters

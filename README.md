@@ -105,9 +105,11 @@ $parameters = array(
     'num' => 10 // number of results to get, 10 is maximum and also default value
 );
 
+$search_type = 'site_restrict'// if empty by default Google Custom Search JSON API would work
+
 $googleSearch = new GoogleSearchApi(); // initialize
 
-$results = $googleSearch->getResults('some phrase', $parameters); // get second 10 results for query 'some phrase'
+$results = $googleSearch->getResults('some phrase', $parameters, $search_type); // get second 10 results for query 'some phrase'
 ```
 
 You can also get the raw result from Google including other information
