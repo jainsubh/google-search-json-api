@@ -138,6 +138,3 @@ $googleSearch->setApiKey('someApiId'); // sets the API key
 
 $results =  $googleSearch->getResults('some phrase'); // get first 10 results for query 'some phrase'
 ```
-
-## License
-This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
