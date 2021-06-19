@@ -3,16 +3,16 @@ Laravel package provide Google Custom Search JSON and Restricted JSON API lets y
 
 ## Package Installation
 
-Add `jainsubh/google-search-api` to `composer.json`.
+Add `jainsubh/google-search-json-api` to `composer.json`.
 ```
-"jainsubh/google-search-api": "~1.0.0"
+"jainsubh/google-search-json-api": "~1.0.0"
 ```
 
 Run `composer update` to pull down the latest version.
 
 Or run
 ```
-composer require jainsubh/google-search-api
+composer require jainsubh/google-search-json-api
 ```
 
 Now open up `/config/app.php` and add the service provider to your `providers` array.
